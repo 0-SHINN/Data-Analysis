@@ -10,3 +10,7 @@
  │   ├── Result/  
  │   └── README.md  
  └── README.md  
+- Code : 분석에 사용된 SQL 쿼리문입니다.
+- Data : 분석에 사용된 데이터 파일입니다.
+- Result : 쿼리문 실행 결과 파일입니다.
+- README.md : 각 프로젝트의 세부 설명 파일입니다.
