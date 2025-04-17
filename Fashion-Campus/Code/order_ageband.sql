@@ -21,7 +21,7 @@ user_seg AS (
             WHEN age >= 20 AND age < 30 THEN '20대'
             WHEN age >= 30 AND age < 40 THEN '30대'
             WHEN age >= 40 AND age < 50 THEN '40대'
-            ELSE '50-'
+            ELSE '50대 이상'
         END AS age_band,
          CASE WHEN order_month = first_order_month THEN 'new_user'
               WHEN DATE_DIFF(order_month, prev_order_month, MONTH) < 2 THEN 'retained_user'

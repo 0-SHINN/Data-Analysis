@@ -30,6 +30,6 @@ SELECT month,
        cohort,
        COUNT(booking_id) AS order_count
 FROM user_seg
-WHERE cohort > 0 AND seg = 'retained_user'
+WHERE seg = 'retained_user'
 GROUP BY month, cohort
 ORDER BY month, cohort
