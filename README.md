@@ -1,13 +1,18 @@
 # 데이터 분석 포트폴리오
 데이터 분석 개인 프로젝트입니다.  
 ### 프로젝트 목록
-[Fashion-Campus](https://github.com/0-SHINN/Data-Analysis/tree/main/Fashion-Campus) : 캐글 데이터를 활용한 E-commerce 데이터 분석 프로젝트
+[Funnel-Analysis](https://github.com/0-SHINN/Data-Analysis/tree/main/Funnel-Analysis) : 매출 하락 분석 및 전환 퍼널 개선 프로젝트
+[Churn-Analysis](https://github.com/0-SHINN/Data-Analysis/tree/main/Churn-Analysis) : 세그먼트 및 코호트 기반 유저 이탈 분석
 ### 프로젝트 구조
 /Data-Analysis  
  ├── Funnel-Analysis/  
  │   ├── Code/  
  │   ├── Data/  
  │   ├── Result/  
+ │   └── README.md 
+ ├── Churn-Analysis/  
+ │   ├── Code/  
+ │   ├── Data/  
  │   └── README.md  
  └── README.md  
 - Code : 분석에 사용된 SQL 쿼리문입니다.
