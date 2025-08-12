@@ -1,0 +1,3 @@
+promo_group,detail_sessions,cart_sessions,conversion_rate
+with_promo,38976,3422,0.0878
+without_promo,80947,10388,0.1283
